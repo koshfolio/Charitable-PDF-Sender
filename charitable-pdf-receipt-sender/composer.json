@@ -1,0 +1,20 @@
+{
+  "name": "ebrahim/charitable-pdf-receipt-sender",
+  "description": "WordPress plugin to send Charitable PDF receipts via email.",
+  "type": "project",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": ">=7.4",
+    "setasign/fpdf": "^1.8",
+    "setasign/fpdi": "^2.5",
+    "setasign/fpdi-fpdf": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "CPRS\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
